@@ -19,6 +19,11 @@ import footer from './Footer.vue';
 export default {
   components: {
     'repeat-times': serverStatus,
+    // it could be
+    // serverStatus, --> ES6 expression
+    // or
+    // repeatTimes: serverStatus (without double quotation marks)
+    // these three ways are all useful
     'table-title': title,
     'table-footer': footer
   }
