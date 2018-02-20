@@ -14,7 +14,9 @@
 </template>
 
 <script>
-</script>
-
-<style>
+</script >
+<style scoped>
+div {
+  border: .2px dotted purple
+}
 </style>
